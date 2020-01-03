@@ -17,6 +17,14 @@ $(function() {
 		  	autoplaySpeed: 4000,
 		  	speed: 3000,
  	});
+	$('.new-slider').slick({
+	 		arrows: false,
+	 		dots: true,
+	 		infinite: true,
+	  		autoplay: true,
+		  	autoplaySpeed: 4000,
+		  	speed: 2000,
+ 	});
 // //////////////// .best-seller-slider  //////////////////////////
  	$('.best-seller-slider').slick({
  		dots: false,
