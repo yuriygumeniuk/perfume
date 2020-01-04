@@ -29,7 +29,7 @@ $(function() {
  	$('.best-seller-slider').slick({
  		dots: false,
  		slidesToShow: 5, 
- 		slidesToScroll: 1,
+ 		// slidesToScroll: 1,
  		arrows: false,
  		infinite: false,
  	});
