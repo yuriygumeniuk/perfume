@@ -192,6 +192,7 @@
 	height: 3px;
 	background-color: #c44c4c;
 }
+.menu-link-block.active .menu__link:after,
 .menu__link:hover:after {
 	width: 19px;
 }

@@ -1,4 +1,12 @@
-﻿function ibg(){
+﻿$(document).ready(function () {
+
+  $('.menu-link-block a').click(function(){
+    $(this).parents('.menu-list').find('.menu-link-block').removeClass('active');
+    $(this).parent().addClass('active');
+    return false
+  });
+
+function ibg(){
 	$.each($('.ibg'), function(index, val) {
 		if($(this).find('.img_bg').length>0){
 			$(this).css('background-image','url("'+$(this).find('img').attr('src')+'")');
@@ -151,6 +159,6 @@ $(function() {
         }
     });
 //////////////////////////////////////////////////////////////
-
  });
+});
 
